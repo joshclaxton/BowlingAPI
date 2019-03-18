@@ -95,6 +95,10 @@ namespace Bowling.Function.Logic
                 {
                     return new ScoringSectionResult("Bowling game may only contain 10 frames");
                 }
+                if(scoringSections.Count == 10)
+                {
+                    endScoring = true;
+                }
             }
             return new ScoringSectionResult(scoringSections);
         }
