@@ -3,14 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bowling.Function", "Bowling.Function\Bowling.Function.csproj", "{45153CBE-DE06-44D7-B6C3-FF5EEA6F2268}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bowling.Function", "Bowling.Function\Bowling.Function.csproj", "{45153CBE-DE06-44D7-B6C3-FF5EEA6F2268}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9735EC0C-EFA0-428D-AB9B-DFBB903A4044}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bowling.Tests", "Bowling.Tests\Bowling.Tests.csproj", "{B8668D35-1018-4F54-8D73-032294E3554E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bowling.Tests", "Bowling.Tests\Bowling.Tests.csproj", "{B8668D35-1018-4F54-8D73-032294E3554E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
