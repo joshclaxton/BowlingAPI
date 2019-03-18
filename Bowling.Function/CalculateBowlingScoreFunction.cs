@@ -15,7 +15,7 @@ namespace Bowling.Function
     {
         private static BowlingScoreCalculator bowlingScoreCalculator = new BowlingScoreCalculator();
         [FunctionName("CalculateBowlingScore")]
-        public static IActionResult Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = "CalculateBowlingScore/{rollScores}")] HttpRequest req, string rollScores, ILogger log)
+        public static IActionResult Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "CalculateBowlingScore/{rollScores}")] HttpRequest req, string rollScores, ILogger log)
         {
             try
             {
