@@ -18,7 +18,7 @@ PR Requests must build and successfully pass all unit tests to be merged to mast
 
 ## Live Example
 
-- Input Example: `123X4SXXXXXXX231` (entered as parameter in the URL)
+- Input Example: `23X4SXXXXXXX23` (entered as parameter in the URL)
     - Roll: `0-9`
     - Spare: `S`
     - Strike: `X`
