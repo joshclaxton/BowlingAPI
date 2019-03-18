@@ -120,6 +120,7 @@ namespace Bowling.Tests
         [InlineData("4SX25", 44)]
         [InlineData("XXXXXXXX9S6S5", 260)]
         [InlineData("23XXXXXXXXX23",252)]
+        [InlineData("23X4SXXXXXXX23",232)]
         public void Should_ScoreCorrectly_When_ValidInput(string rollScores, int expected)
         {
             var expectedResult = new BowlingScoreResult() { Score = expected, Error = null };
