@@ -1,5 +1,3 @@
-[![Build status](https://joshclaxton.visualstudio.com/Root/_apis/build/status/BowlingAPI)](https://joshclaxton.visualstudio.com/Root/_build/latest?definitionId=2)
-
 # Bowling API
 
 Azure Function to calculate the score of a bowling game
@@ -15,15 +13,9 @@ Azure Function to calculate the score of a bowling game
 		- Follow these [instructions ](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local)
 		- This is a bit more involved, but is feasible.
 
-## CI/CD Through Azure DevOps
-
-PR Requests must build and successfully pass all unit tests to be merged to master. Once in master, the function is continuously pushed to the live example.
-
-## Live Example
+## Example
 
 - Input Example: `23X4SXXXXXXX23` (entered as parameter in the URL)
     - Roll: `0-9`
     - Spare: `S`
     - Strike: `X`
-
-Hosted version can be found at https://bowlingapi.azurewebsites.net/api/CalculateBowlingScore/23XXXXXXXXX23
